@@ -52,3 +52,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
+ gem 'turbolinks', '~> 5.0.0'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+gem 'devise'
+gem 'simple_form'

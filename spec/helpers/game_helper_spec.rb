@@ -11,12 +11,7 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe GameHelper, type: :helper do
-  describe "game#index action" do
-    it "should successfully show the page" do
-      get :index
-      expect(response).to have_http_status(:success)
-    end
-  end
+
 end
 
 
